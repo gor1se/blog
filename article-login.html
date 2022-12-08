@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Startseite</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+    <div id="page-container">
+    <div id="content-wrap">
+     <!-- all other page content -->
+     <nav class="navbar">
+        <div class="navbar-logo">AS</div>
+        <ul class="navbar-list">
+            <li class="navbar-list-item"><a href="">Home</a></li> 
+            <li class="navbar-list-item"><a href="">Articles</a></li>
+            <li class="navbar-list-item"><a href="">About Me</a></li>
+            <li class="navbar-list-item"><a href="">Contact</a></li>
+        </ul>
+    </nav>
+    <article class="blog-article">
+        <h2 class="article-heading">Creating a simple login Form</h2>
+        <section class="article-description">In this first excersice we will learn how to create a simple but well designed login form.</section>
+        <h3 class="article-sub-heading">Step 1: Creating all nesseccary files</h3>
+        <p class="article-step-description">In this first steps we are going to create all the nessessary files for our project. If you feel comfortable enough,
+            you can do so in the command shell. We are going to create an index.html and a styles.css file.
+        </p>
+        <code>
+            cd dev <span class="light">// Go to the directory where you'd like to start this project in</span><br>
+            mkdir loginForm <span class="light">// Creating the project folder</span><br>
+            cd loginForm <span class="light">// Changing into our newly created project</span> <br>
+            touch index.html styles.css <span class="light">// Creating the nesseccary files with "touch" </span><br>
+        </code>
+        <h3 class="article-sub-heading">Step 2: HTML</h3>
+                <p class="article-step-description">Whenever you open up a brand new HTML file with the intention of creating a new weppage, it will always be a good
+                    idea to start with a boiler-plate HTML structure like this. You can just copy and paste this code to get startet or use the Emmet-Abreviation 
+                    "!" and then press "tab".
+        </p>
+        <code>
+            &lt;!DOCTYPE html&gt; <br>
+&lt;html lang="en"&gt;<br>
+&lt;head&gt;<br>
+    &lt;meta charset="UTF-8"&gt;<br>
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt; <br>
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt; <br>
+    &lt;title&gt;Document&lt;/title&gt; <br>
+&lt/head&gt; <br>
+&ltbody&gt; <br>
+    
+&lt;/body&gt; <br>
+&lt;/html&gt; <br>
+        </code>
+    </article>
+    </div>
+    <footer class="footer" id="footer"><p class="footer-content">&#169 Andreas Schmidt</p>
+        </footer>
+ </div>
+        <script src="app.js"></script>
+    </body>
+</html>
+
